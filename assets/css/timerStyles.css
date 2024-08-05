@@ -6,6 +6,12 @@
     position: relative;
     width: 100%;
     height: 100%;
+    background-color: #0e67e345;
+    border-radius: 4%;
+    -webkit-border-radius: 4%;
+    -moz-border-radius: 4%;
+    -ms-border-radius: 4%;
+    -o-border-radius: 4%;
 }
 
 /**
@@ -13,8 +19,10 @@
  * in time circles
  **/
 .time_circles > div {
-    position: absolute;
-    text-align: center;
+  position: absolute;
+  text-align: center;
+  background: transparent;
+  
 }
 
 /**
@@ -23,6 +31,7 @@
 .time_circles > div > h4 {
     margin: 0px;
     padding: 0px;
+    z-index: 1;
     text-align: center; 
 	color:#fff;
     font-family: 'Century Gothic', Arial;
@@ -38,5 +47,5 @@
     font-family: 'Century Gothic', Arial;
     font-size: 300% !important;
     margin-top: 0.4em;
-    font-weight: normal;
+    font-weight:500;
 }
