@@ -8,7 +8,7 @@ body, html {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: normal;
   font-size: 16px;
-  background: #000E1B;
+  background: linear-gradient(to bottom , #472f4d , #83284d 70%);
   color: #3a3a3a;
   height: 100%;
 }
@@ -56,6 +56,9 @@ a:active {color: #416467;}
 	content: "";
 	display: table;
 }
+.footer{
+  margin-top: 40px;
+}
 .form-horizontal:after,
 .form-horizontal:before
  {
@@ -73,7 +76,9 @@ a:active {color: #416467;}
          -o-background-size: cover;
             background-size: cover;
     height: 100%;
-	position: relative;
+    width: 100%;
+    
+	position: center;
 	text-align:center;
 }
 
@@ -106,7 +111,7 @@ a:active {color: #416467;}
 	color: #1b727b;
 }
 
-}
+
 /*--------------------------------------
 # - 3.1 Countdown section style start here
 ----------------------------------------*/
@@ -132,6 +137,15 @@ a:active {color: #416467;}
 }
 .contact-block form {
 	margin-bottom: 75px;
+}
+.my-form{
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+.form-control{
+  margin-top : 20px;
+
 }
 .content .form-control,
 .contact-block .form-control {
@@ -167,10 +181,46 @@ a:active {color: #416467;}
   font-size: 16px;
   line-height: 1;
 }
-
+.head{
+  margin-top: 100px;
+}
+.bitn{
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+}
+.button{
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid ;
+	padding: 10px 20px;
+  margin-top: 10px;
+  display: block;
+  
+  margin-right: auto;
+  margin-left: auto;
+}
+.button:hover{
+  background-color: #83284d;
+  color:aliceblue;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 10px;
+  transition:all 0.7s ;
+  -webkit-transition:all 0.7s ;
+  -moz-transition:all 0.7s ;
+  -ms-transition:all 0.7s ;
+  -o-transition:all 0.7s ;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 .blazer .btn-sand,
 .contact-block .btn-sand {
 	color: #fff;
+  background-color: transparent;
+  border: 1px solid ;
 	padding: 10px 20px;
 }
 .contact-block .btn-sand {
